@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+		<div class="formulario" id="formulario">
+		<h1 id="prueba">BEST<span id="party">PARTY</span></h1>
+		<input type="text" class="entrada"  id="nombre" placeholder="Nombre(s)" autocomplete="off" > <br>
+		<input type="text" class="entrada" id="apellido" placeholder="Apellido(s)" autocomplete="off" > <br>
+		<input type="number" class="entrada" id="edad" placeholder="Edad" autocomplete="off"> <br>
+		<input onclick="verif()" type="submit" id="enviar">
+		<p class="warning" id="warning"></p>
+		<script type="text/javascript" src="form.js"></script>
+	</div>
+</body>
+</html>
